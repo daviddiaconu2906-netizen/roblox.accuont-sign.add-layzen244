@@ -1,0 +1,12 @@
+<div class="card" id="card">
+  <h2 id="title">Connexion</h2>
+
+  <div id="form">
+    <input type="text" id="username" placeholder="Nom d'utilisateur (uniquement pour inscription)" />
+    <input type="email" id="email" placeholder="Email" />
+    <input type="password" id="password" placeholder="Mot de passe" />
+    <button id="actionBtn">Se connecter</button>
+    <div class="small" id="toggle">Pas encore inscrit ?</div>
+    <div class="msg" id="msg"></div>
+  </div>
+</div>

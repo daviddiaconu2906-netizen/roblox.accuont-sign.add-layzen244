@@ -1,0 +1,40 @@
+:root { --card-w: 360px; }
+
+body {
+  margin: 0;
+  font-family: "Poppins", "Arial", sans-serif;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Roblox_Logo_2023.svg/2560px-Roblox_Logo_2023.svg.png');
+  background-size: cover;
+  background-position: center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:100vh;
+  color:#fff;
+}
+
+.card {
+  width: var(--card-w);
+  background: rgba(8, 12, 20, 0.6);
+  padding:22px;
+  border-radius:12px;
+  box-shadow:0 8px 30px rgba(0,0,0,0.6);
+}
+
+h2 { margin:0 0 12px 0; text-align:center; }
+
+input, button {
+  width:100%;
+  padding:10px;
+  margin:8px 0;
+  border-radius:8px;
+  border:none;
+  outline:none;
+  box-sizing:border-box;
+}
+
+input { background: rgba(255,255,255,0.9); }
+button { background:#ff3c3c; color:#fff; font-weight:700; cursor:pointer; }
+
+.small { font-size:0.9em; color:#ddd; text-align:center; margin-top:8px; cursor:pointer; }
+.msg { font-size:0.9em; margin-top:6px; min-height:18px; color:#ffecb3; text-align:center; }
